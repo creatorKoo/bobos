@@ -576,7 +576,7 @@ _In_ const wchar_t* dst_file
 
 	// file copy
 	bool ret = false;
-	char buf[4096] = { 0 };
+	char buf[1] = { 0 };
 	DWORD bytes_written = 0;
 	DWORD bytes_read = 0;
 
